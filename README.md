@@ -1,2 +1,2 @@
 # NMAs
-Neural Manifold Animals - NMA project (Neuroscience)
+Neural Manifold Animals - NMA Deep Learning Project 
