@@ -71,7 +71,8 @@ Neural Manifold Animals - NMA Deep Learning Project
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project (Neuromatch Academy Deep Learning Project)
+ 
 Can we identify different neural populations based on their latent dynamical activity? In the case of the Stringer dataset from mouse V1, can we identify which layer the neural data is from based on the latents?
 
 ### Built With
