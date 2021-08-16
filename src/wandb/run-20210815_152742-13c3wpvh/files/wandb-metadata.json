@@ -1,0 +1,26 @@
+{
+    "os": "Linux-5.8.0-63-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2021-08-15T13:27:42.849161",
+    "startedAt": "2021-08-15T13:27:42.087022",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/sazeglio/.local/share/jupyter/runtime/kernel-5345609b-aa21-4a89-a889-dac9505b603d.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:sazio/NMAs.git",
+        "commit": "3157fd537dc3ef47248b327b10eef7bdc277ca81"
+    },
+    "email": null,
+    "root": "/home/sazeglio/NMAs",
+    "host": "mljc-spring",
+    "username": "sazeglio",
+    "executable": "/usr/bin/python3"
+}

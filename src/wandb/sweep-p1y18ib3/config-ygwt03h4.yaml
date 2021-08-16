@@ -1,0 +1,16 @@
+wandb_version: 1
+
+dropout:
+  value: 0.5
+epochs:
+  value: 2500
+learning_rate:
+  value: 0.0005718243394658012
+n_comp:
+  value: 226
+num_layers:
+  value: 3
+optimizer:
+  value: adam
+weight_decay:
+  value: 5.0e-05

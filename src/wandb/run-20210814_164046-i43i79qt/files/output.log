@@ -1,0 +1,29 @@
+
+ iteration 0, train cost 3.6622, valid cost 3.7171
+ iteration 50, train cost 2.0988, valid cost 2.1888
+ iteration 100, train cost 2.0582, valid cost 2.1426
+ iteration 150, train cost 2.0543, valid cost 2.1397
+ iteration 200, train cost 1.9919, valid cost 2.0671
+ iteration 250, train cost 1.9693, valid cost 2.0401
+ iteration 300, train cost 1.9598, valid cost 2.0278
+ iteration 350, train cost 1.9507, valid cost 2.0225
+ iteration 400, train cost 1.9366, valid cost 2.0155
+ iteration 450, train cost 1.9192, valid cost 2.0028
+ iteration 500, train cost 1.8908, valid cost 1.9804
+ iteration 550, train cost 1.8794, valid cost 1.9739
+ iteration 600, train cost 1.8531, valid cost 1.9595
+ iteration 650, train cost 1.8299, valid cost 1.9391
+ iteration 700, train cost 1.8176, valid cost 1.9186
+ iteration 750, train cost 1.7976, valid cost 1.9168
+ iteration 800, train cost 1.7735, valid cost 1.9004
+ iteration 850, train cost 1.7741, valid cost 1.8992
+ iteration 900, train cost 1.7470, valid cost 1.8908
+ iteration 950, train cost 1.7462, valid cost 1.8990
+ iteration 1000, train cost 1.7457, valid cost 1.8887
+ iteration 1050, train cost 1.7369, valid cost 1.8861
+ iteration 1100, train cost 1.7142, valid cost 1.8920
+ iteration 1150, train cost 1.7244, valid cost 1.8876
+ iteration 1200, train cost 1.6933, valid cost 1.8869
+ iteration 1250, train cost 1.6819, valid cost 1.8890
+ iteration 1300, train cost 1.6771, valid cost 1.8892
+wandb: Ctrl + C detected. Stopping sweep.
