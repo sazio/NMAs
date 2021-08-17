@@ -73,12 +73,21 @@ Neural Manifold Animals - NMA Deep Learning Project
 <!-- ABOUT THE PROJECT -->
 ## About The Project (Neuromatch Academy Deep Learning Project)
  
-Can we identify different neural populations based on their latent dynamical activity? In the case of the Stringer dataset from mouse V1, can we identify which layer the neural data is from based on the latents?
+The brain can be modelled as a high-dimensional dynamical system. Despite its high dimensionality, many components of the brain during specific functions can be understood through some lower-dimensional representation. We call this representation ”the hidden dynamics” that underlie the activity of the brain’s neurons.These hidden dynamics provide a good description of whatever function the brain is performing. Here, we firstly attempt to understand whether dynamics can be extracted as a low dimensional embedding of neural population (corresponding roughly to different layers in V1 ). On the other hand, we try to determine how many latent dimensions are needed to cluster - or classify - different neural populations activities. We hypothesized that, given the noisy activity of many neurons, the relevant dynamics may be seen as a nonlinear combination of a small fraction of the total neurons in each physiological layer. Using the Stringer dataset [1][2], we trained an LSTM [3] (i.e. RNN ) to encode a layer of neurons. This encoding was accomplished by training the neuron to reconstruct the input at the output while passing the input through a low-dimensional hidden layer to force the network to compress the input data. Assuming that the network is able to get a good reconstruction, this hidden layer contains the compression of the neurons into a lower-dimensional space. During the preliminary phase of our work, by running several hyperparameter optimization sweeps, we discovered that the optimal dimension - in a reconstruction task - for the latent space is rather limited,- 75 dims out of 1131 neurons per layer - i.e. 7% of the original signals dimension. This is an encouraging result, which apparently testify our starting hypothesis. Now, given that the reconstruction error is minimized, we can shift our attention on the latent dynamics representation for each anatomical layer. Possible future directions will explore the existence of multi-scale temporal dynamics and how to efficiently extract them. From this perspective, either more advanced RNN’s regularization techniques or the use of architectures, e.g. LFADS [4] more grounded on dynamical systems aspects.
+
+ 
+[1] Stringer,  Carsen,  et  al.   “Spontaneous  behaviors  drive  multidimensional,  brainwide  activity.”  Science 364.6437 (2019).
+
+[2] Stringer, Carsen, et al.  “High-precision coding in visual cortex.” Cell 184.10 (2021): 2767-2778.
+
+[3] Hocreiter, Sepp, et al. ”Long Short-Term Memory”, Neural Computation Volume 9 Issue 8 (1997)
+
+[4] Pandarinath,  Chethan,  et  al.   ”Inferring  single-trial  neural  population  dynamics  using  sequential  auto-encoders” Nature Methods 15, 805–815 (2018)
 
 ### Built With
 
 * [PyTorch](https://pytorch.org/)
-* TBC
+* [wandb](https://wandb.ai/)
 
 
 
