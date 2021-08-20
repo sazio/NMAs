@@ -161,7 +161,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <!-- CONTACT -->
 ## Contact
 
-Simone Azeglio - email : []() - [linkedin]() - [twitter]()
+Simone Azeglio - email : [simone.azeglio@edu.unito.it](simone.azeglio@edu.unito.it) - [linkedin](https://www.linkedin.com/in/simoneazeglio/) - [twitter](https://twitter.com/simoneazeglio)
 
 Chetan Dhulipalla - email : []() - [linkedin]() - [twitter]()
 
