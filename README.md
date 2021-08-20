@@ -21,7 +21,7 @@ Neural Manifold Animals - NMA Deep Learning Project
 <br />
 <p align="center">
     <a href="https://github.com/sazio/NMAs">
-    <img src="images/logo.png" alt="Logo" width="600" height="400">
+    <img src="images/logo.png" alt="Logo" width="700" height="400">
    
   <h1 align="center">Neural Manifold Animals (NMAs)</h1>
   <h3 align="center">A Whole Zoo of Neuronal Signals</h3>
